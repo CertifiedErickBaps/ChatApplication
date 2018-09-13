@@ -1,0 +1,166 @@
+html {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Verdana;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border-top: 1px solid transparent;
+    overflow: hidden;
+}
+
+#login-area {
+    width: 500px;
+    height: 300px;
+    border: 1px solid rgb(0, 0, 0);
+    margin: 0 auto;
+    margin-top: 150px;
+}
+
+#login-text {
+    width: 100%;
+    text-align: center;
+}
+
+#login-area #login-form-area {
+    width: 100%;
+    margin-top: 40px;
+    text-align: center;
+}
+
+#username {
+    height: 50px;
+    width: 300px;
+    padding: 0 5px;
+    font-size: 26px; 
+    outline: none;
+    outline-offset: 0;
+}
+
+#login-submit {
+    font-size: 26px;
+    background-color: transparent;
+    border: 1px solid #000;
+    height: 50px;
+    will-change: 100%;
+    cursor: pointer;
+    outline: none;
+    outline-offset: 0;
+}
+
+#login-submit:hover {
+    color: #fff;
+    background-color: black;
+}
+
+#chat-area {
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+#users-area {
+    height: 100%;
+    width: 20%;
+    border-right: 1px solid #000;
+    border-top: 1px solid transparent;
+    float: left;
+    background-color: #ddd;
+}
+
+#online-users-text h1{
+    margin: 0;
+    padding: 0;
+}
+
+#online-users-text {
+    margin: 0;
+    padding: 0;
+    margin-top: 100px;
+    text-align: center;
+}
+
+#online-users {
+    margin-top: 50px;
+}
+
+#online-users #users {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+#online-users #users li {
+    list-style-type: none;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+#chat-area #message-area {
+    width: calc(80% - 1px);
+    height: 100%;
+    float: right;
+    background-color: #aaa;
+}
+
+#message-area #display-message-area {
+    width: 100%;
+    height: 90%;
+    border-top: 1px solid transparent;
+}
+
+#messages {
+    margin: 0;
+    padding: 0;
+}
+
+#messages li {
+    list-style-type: none;
+    padding: 10px 10px;
+}
+
+#messages li:nth-child(odd) {
+    background-color: #eee;
+}
+
+#message-form-area {
+    width: 100%;
+    height: 10%;
+    border-top: 1px solid black;
+}
+
+#message-form-area #message-form #message{
+    height: 56px;
+    width: 90%;
+    font-size: 26px;
+    padding: 0 5px;
+    outline: none;
+    outline-offset: 0;
+    color: #eee;
+    background-color: transparent;
+    border-right: 1px solid #000;
+}
+
+#message-form-area #message-form #message::placeholder {
+    color: #eee;
+}
+
+#message-submit {
+    height: 58px;
+    width: 85px;
+    border: 1px solid transparent;
+    background-color: transparent;
+    font-size: 26px;
+    cursor: pointer;
+}
+
+#message-submit:hover {
+    color: #fff;
+    background-color: #000;
+}
